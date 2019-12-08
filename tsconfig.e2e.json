@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "../../dist/out-tsc/apps/<app-name>-e2e/src",
+    "lib": ["es2015", "dom"],
+    "types": ["node"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../node_modules/cypress"
+  ]
+}
